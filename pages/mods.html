@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Fonts -->
+
+    <!-- styles  libraries -->
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/animate.css/animate.min.css"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Semantic UI -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>froliYT</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../imgs/logo.jpeg" />
+  </head>
+
+  <body>
+    <div class="splash">
+      <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status">
+          <span class="sr-only"></span>
+        </div>
+      </div>
+    </div>
+    <div class="all" id="main">
+      <!--   navbar start -->
+
+      <div class="ui secondary pointing menu">
+        <div class="image">
+          <a
+            href="https://youtube.com/@froli1?si=Ww5YA0xKj8wwyROE"
+            class="item"
+            id="brand"
+          >
+            <img
+              src="../imgs/logo.jpeg"
+              alt=""
+              class="ui top aligned avatar bordered image"
+            />froli Website</a
+          >
+        </div>
+        <div class="sidebar">
+          <div class="right menu">
+            <a
+              href="#sidebar"
+              class="hhhh"
+              data-bs-toggle="offcanvas"
+              role="button"
+              ><i class="bi bi-list"></i
+            ></a>
+
+            <div class="offcanvas offcanvas-end" id="sidebar" tabindex="-1">
+              <div class="offcanvas-header">
+                <div class="offcanvas-title">قائمة الصفحات</div>
+                <a class="closeSidebar" data-bs-dismiss="offcanvas"
+                  ><i class="bi bi-x"></i
+                ></a>
+              </div>
+              <div class="offcanvas-body">
+                <a href="main.html" class="page-link">الصفحة الرئيسية</a>
+
+                <a href="videos.html" class="page-link">الفيديوهات</a>
+
+                <div class="side-menu">
+                  <a href="mods.html" class="page-link active">المودات</a>
+
+                  <a href="games.html" class="page-link">الألعاب</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="middle menu">
+          <span class="item" id="pp">Free </span>
+          <span class="item" id="pp2">Palestine</span>
+        </div> -->
+        <div class="menu-content">
+          <div class="right menu">
+            <a class="item" href="games.html"> الألعاب </a>
+            <a class="item" href="videos.html"> الفيديوهات </a>
+            <a class="item active" href="mods.html"> المودات </a>
+            <!-- <a class="item" href="./pages/Admins.html"> Admins </a> -->
+            <a class="item" href="main.html"> الرئيسية </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+
+      <!--   navbar end -->
+
+      <!-- Main Start -->
+
+      <main class="main">
+        <div class="sidemain1" style="margin-top: 20px">
+          <h3 class="ui top attached header">مقترح لك</h3>
+          <div class="ui attached segment">
+            <div class="ui items" id="modsSide"></div>
+          </div>
+        </div>
+        <div class="ui segment" style="flex-grow: 1">
+          <div class="ui items" id="modsMain"></div>
+        </div>
+      </main>
+
+      <!-- Main End -->
+
+      <!--  Footer Start -->
+      <footer>
+        <div class="footer">
+          <div class="ui list">
+            <div class="item">
+              <div class="header">Quick Links</div>
+              <div class="content">
+                <a href="aboutus.html">About us</a>
+                <a href="https://discord.com/invite/YWymVDMw">Contact us</a>
+                <a
+                  href="https://www.termsofusegenerator.net/live.php?token=5AelGw3Y0MDUScj3mVQb9gTaBgU1EA10"
+                  >Terms of use</a
+                >
+                <a
+                  href="https://www.termsfeed.com/live/81f81816-fa9e-4489-8564-9ab21997b6a8"
+                  >privacy Policy</a
+                >
+              </div>
+            </div>
+            <div class="item">
+              <div class="header">Contact</div>
+              <div class="content">
+                <a href="mailto:frclan.x@gmail.com" type="email"
+                  ><i class="bi bi-envelope"></i> frclan.x@gmail.com</a
+                >
+                <a href="https://youtube.com/@froli1?si=Ww5YA0xKj8wwyROE"
+                  ><i class="bi bi-youtube"></i> froli Channel</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" id="upB" class="btn btn-outline-warning">
+          <a href="#main"><i class="bi bi-chevron-double-up"></i></a>
+        </button>
+        <p class="copyright">
+          froli <span id="year"></span> ©™ || froli ©™ جميع الحقوق محفوظلة لدى
+        </p>
+      </footer>
+    </div>
+    <!-- Footer End -->
+    <!-- Moment.js -->
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+
+    <!-- Moment.js with locales -->
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment-with-locales.min.js"></script>
+
+    <!-- Arabic locale for Moment.js -->
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/locale/ar.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Semantic UI -->
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/post.js"></script>
+  </body>
+</html>
