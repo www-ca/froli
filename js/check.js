@@ -1,5 +1,5 @@
-function login() {
-  var correctPassword = "1122";
+﻿function login() {
+  var correctPassword = "F010424r$mc";
   var username = "froli";
   var name = document.getElementById("name").value;
   var pass = document.getElementById("password").value;
