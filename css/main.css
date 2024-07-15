@@ -117,6 +117,10 @@ body {
 
 /* navbar */
 
+.cbtn {
+  opacity: 0;
+}
+
 #brand {
   padding: 7px !important;
   width: 150px;
@@ -179,9 +183,9 @@ body {
   }
 
   .btn-create {
-    opacity: 0;
     border-radius: 8px;
     margin-left: 40px;
+    padding: 5px;
     background-color: transparent;
     color: var(--y);
     border: 2px solid var(--y);
@@ -191,9 +195,6 @@ body {
   .btn-create:hover {
     color: var(--w);
     border-color: var(--w);
-  }
-  #cccc {
-    opacity: 0;
   }
 
   .ui.secondary.pointing.menu {
@@ -528,7 +529,6 @@ body {
   }
 
   .btn-create {
-    opacity: 0;
     width: 35px;
     margin-top: 5px;
     height: 35px;

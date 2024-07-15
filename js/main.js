@@ -1,9 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   var trusted = localStorage.getItem("trusted");
   if (trusted === "true") {
-    var element = document.querySelector("#cccc");
+    
+    var element = document.querySelector(".btn-create");
+    
     if (element) {
-      element.style.opacity = 1;
+      document.querySelector('.cbtn').style.opacity = 1
+      element.disabled = false
     }
   }
   var date = new Date();
@@ -61,5 +64,6 @@ if (window.location.href.includes("pages/main.html")) {
     elements[i].style.marginLeft = "100px";
   }
 }
+
 
 $("select.dropdown").dropdown();
